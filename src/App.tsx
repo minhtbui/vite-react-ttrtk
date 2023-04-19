@@ -17,6 +17,7 @@ export const routesConfig: RouteObject[] = [
         element: <Home />,
       },
       {
+        path: '*',
         errorElement: <NotFound />,
       },
     ],
